@@ -1,0 +1,325 @@
+  @font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Rubik-Regular.ttf") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Rubik-Bold.ttf") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/Raleway-ExtraBold.ttf") format("woff2");
+    font-display: swap;
+  }
+
+  body {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #444444;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .visually-hidden {
+      display: none;
+  }
+
+  .heading {
+    font-family: "Raleway", sans-serif;
+    color: #000;
+  }
+
+  .section-heading {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .button {
+    font-family: "Raleway", sans-serif;
+    color: #000;
+    font-size: inherit;
+    text-transform: uppercase;
+    background-color: #FFE17F;
+    letter-spacing: 0.2em;
+  }
+
+  /* ----------------header---------------- */
+  .header {
+      background-color: #FFE17F;
+  }
+
+  .header-topNav-goodsButtons-item-link-number {
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .header-bottomNav {
+      line-height: 21px;
+      letter-spacing: 0.2em;
+  }
+
+  /* ----------------hero---------------- */
+  .hero-info-parameters-list-item-indicator-value {
+    font-size: 36px;
+  }
+
+  .hero-info-parameters-list-item-description {
+    font-size: 16px;
+  }
+
+  .header-bottomNav-catalog-addButton {
+      background-color: #FFE17F;
+  }
+
+  .hero-number {
+    background-color: #FFE17F;
+    font-size: 180px;
+    color: #fff;
+  }
+
+   /* ----------------categories---------------- */
+  .categories-list-item-name {
+    line-height: 24px;
+    letter-spacing: -0.02em;
+  }
+
+    /* ----------------service---------------- */
+  .service {
+      background-color: #F0F0F0;
+    }
+  
+  .service-list {
+      line-height: 21px;
+    }
+
+  .service-list-item-current {
+    font-family: "Raleway", sans-serif;
+    background-color: #000;
+  }
+
+  .service-list-item-current > button {
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #FFE17F;
+    font-size: inherit;
+  }
+
+  .service-list-item-current {
+    font-size: inherit;
+    letter-spacing: 0.2em;
+  }
+
+  /* ----------------delivery---------------- */
+  .delivery {
+    background-color: #F0F0F0;
+  }
+
+  .delivery-title {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .delivery-image {
+    background-color: #FFE17F;
+  }
+
+  .delivery-info {
+    background-color: #DCDCDC80;
+  }
+
+  /* ----------------about---------------- */
+  .about-block-short-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .about-block-short > address {
+    font-style: normal;
+  }
+
+  .about-block-short-phone {
+    text-decoration: underline;
+    color: inherit;
+  }
+
+  /* ----------------subscribe---------------- */
+  .subscribe {
+    background-color: #F0F0F0;
+  }
+
+  .subscribe-form > button {
+    line-height: 21px;
+    letter-spacing: normal;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  /* ----------------footer---------------- */
+  .footer {
+    background-color: #444444;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .footer-address {
+    font-style: normal;
+    line-height: 19px;
+  }
+
+  .footer-menu {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .footer-menu-list-item-link {
+    color: inherit;
+  }
+
+  .footer-menu-social-item {
+    background-color: rgba(255, 255, 255, 0.3)
+  }
+
+  .footer-phone-link {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  /* ----------------page-header---------------- */
+  .page-header-breadcrumbs {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  /* ----------------catalog---------------- */
+  .catalog {
+    background-color: #F0F0F0;
+  }
+
+  /* filters */
+  .filters {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .filters-header {
+    color: #000;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    font-weight: bold;
+  }
+
+  .catalog-header {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .catalog-content-grid {
+    background-color: #fff;
+  }
+
+  .catalog-content-grid-item-info-name {
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+  }
+
+  .catalog-content-grid-item-info-price {
+    line-height: 21px;
+  }
+
+  .catalog-content-more {
+    font-style: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .catalog-content-pagination-button {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .catalog-content-pagination-list-item-link {
+    font-size: 16px;
+    line-height: 20px;
+    color: inherit;
+    opacity: 0.3;
+  }
+
+/* ------------------------------------------------------------------ svg icons  */
+
+  .header-logo {
+    background-image: url("../img/logo.svg");
+    display: block; /* display потом уберу */
+    width: 145px;
+    height: 36px;
+  }
+
+  .footer-logo {
+    background-image: url("../img/logo-footer.svg");
+    display: block; /* display потом уберу */
+    width: 145px;
+    height: 36px;
+  }
+
+  .header-search-label {
+    background-image: url("../img/search.svg");
+    display: inline-block; /* display потом уберу */
+    width: 16px;
+    height: 16px;
+  }
+
+  .delivery-image {
+    background-image: url("../img/truck.svg");
+    display: inline-block; /* display потом уберу */
+    width: 47px;
+    height: 31px;
+  }
+
+  .delivery-info {
+    background-image: url("../img/info.svg");
+    display: inline-block; /* display потом уберу */
+    width: 2px;
+    height: 12px;
+  }
+
+  .subscribe-formContainer-message-icon {
+    background-image: url("../img/check.svg");
+    display: inline-block; /* display потом уберу */
+    width: 16px;
+    height: 16px;
+  }
+
+  .footer-signature {
+    background-image: url("../img/signature.svg");
+    display: inline-block; /* display потом уберу */
+    width: 115px;
+    height: 33px;
+  }
